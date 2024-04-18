@@ -10,8 +10,17 @@ import SwiftUI
 struct LandmarkList: View {
     var body: some View {
         /*id: \.id use this if there's no identifiable protocol in list parameter*/
-        List(landmarks) { landmark in
-            LandmarkRow(landmark: landmark)
+        NavigationSplitView {
+            List(landmarks) { landmark in
+                NavigationLink {
+                    LandmarkDetail()
+                } label: {
+                    LandmarkRow(landmark: landmark)
+                }
+            }
+            .navigationTitle("Landmarks")
+        } detail: {
+            Text("Select a Landmark")
         }
     }
 }
