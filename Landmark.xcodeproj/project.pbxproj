@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F91CC062BD2001100391AEA /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91CC052BD2001100391AEA /* FavoriteButton.swift */; };
+		3FE8EA6D2BD2093A00C4BE40 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8EA6C2BD2093A00C4BE40 /* HexagonParameters.swift */; };
 		3FEC69B92BD0E0A500162789 /* LandmarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC69B82BD0E0A500162789 /* LandmarkApp.swift */; };
 		3FEC69BB2BD0E0A500162789 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC69BA2BD0E0A500162789 /* ContentView.swift */; };
 		3FEC69BD2BD0E0A500162789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC69BC2BD0E0A500162789 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		3F91CC052BD2001100391AEA /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		3FE8EA6C2BD2093A00C4BE40 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		3FEC69B52BD0E0A500162789 /* Landmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEC69B82BD0E0A500162789 /* LandmarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkApp.swift; sourceTree = "<group>"; };
 		3FEC69BA2BD0E0A500162789 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				3FEC69B82BD0E0A500162789 /* LandmarkApp.swift */,
 				3FEC69BC2BD0E0A500162789 /* Assets.xcassets */,
 				3FEC69BE2BD0E0A500162789 /* Preview Content */,
+				3FE8EA6C2BD2093A00C4BE40 /* HexagonParameters.swift */,
 			);
 			path = Landmark;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				3FEC69E52BD0E76300162789 /* MapView.swift in Sources */,
 				3FEC6A502BD0EBB100162789 /* Landmark.swift in Sources */,
 				3F91CC062BD2001100391AEA /* FavoriteButton.swift in Sources */,
+				3FE8EA6D2BD2093A00C4BE40 /* HexagonParameters.swift in Sources */,
 				3FEC6A5B2BD0F17B00162789 /* LandmarkList.swift in Sources */,
 				3FEC6A5D2BD0F2D900162789 /* LandmarkDetail.swift in Sources */,
 				3FEC69B92BD0E0A500162789 /* LandmarkApp.swift in Sources */,
